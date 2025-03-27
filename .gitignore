@@ -1,0 +1,25 @@
+# Ignore archive directory
+_archive/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore dependency directories
+/node_modules/
+/vendor/
+
+# Ignore SQLite database files
+*.sqlite
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db

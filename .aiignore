@@ -1,0 +1,28 @@
+# Ignore archive directory
+_archive/
+
+# Ignore large binary files and assets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.pdf
+*.zip
+*.tar
+*.gz
+*.mp3
+*.mp4
+*.avi
+
+# Ignore compiled code and libraries
+/node_modules/
+/vendor/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
